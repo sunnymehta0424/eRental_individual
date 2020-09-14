@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RDPMini_Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="157.699">
+  <properties />
+            <testcase name="rdpMiniTest" time="157.699" classname="onlinelease.tests.RDPMiniTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: insurance-button&apos; (tried for 100 second(s) with 500 milliseconds interval)"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: insurance-button' (tried for 100 second(s) with 500 milliseconds interval)
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+  onlinelease.constants.WebPage.waitFor(WebPage.java:43)
+  onlinelease.pages.InsurancePage.reviewOption(InsurancePage.java:44)
+  onlinelease.tests.RDPMiniTest.rdpMiniTest(RDPMiniTest.java:42)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(Unknown Source)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#insurance\-button"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'PS18-PC0KS3B9', ip: '10.140.2.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\smehta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44db364021ea0ef7aa790e15d47780d6
+*** Element info: {Using=id, value=insurance-button}
+  sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+  org.openqa.selenium.By$ById.findElement(By.java:188)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+  com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+  org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+  org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+  org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+  org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  onlinelease.constants.WebPage.waitFor(WebPage.java:43)
+  onlinelease.pages.InsurancePage.reviewOption(InsurancePage.java:44)
+  onlinelease.tests.RDPMiniTest.rdpMiniTest(RDPMiniTest.java:42)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(Unknown Source)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

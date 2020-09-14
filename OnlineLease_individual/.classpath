@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/excel jars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/excel jars/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/excel jars/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/excel jars/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/excel jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/ReportNG/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/ReportNG/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/smehta/Desktop/Task/OnlineLease_Automation/Jars/ReportNG/velocity-dep-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

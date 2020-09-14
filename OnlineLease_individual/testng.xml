@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OnlineLease_Automation" configfailurepolicy="skip">
+	<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+<!--     <test name="Verify_HomePage">
+        <classes>
+            <class name="onlinelease.tests.VerifyHomeTest" />
+            <class name="onlinelease.tests.FindStorageTest" />
+        </classes>
+    </test> -->
+    
+    <!--  Runs from the beginning -->
+    
+	<test name="RDPMini_Test">
+        <classes>
+            <class name="onlinelease.tests.RDPMiniTest" />
+        </classes>
+    </test>
+    
+	
+	<!--  Runs from Reservation page -->
+	<!--  <test name="CollectCustomer_Test">
+        <classes>
+            <class name="onlinelease.tests.CollectCustomerTest" />
+        </classes>
+    </test>   -->
+    
+   </suite>

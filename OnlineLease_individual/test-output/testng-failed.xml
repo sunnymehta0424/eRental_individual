@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OnlineLease_Automation]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="RDPMini_Test(failed)">
+    <classes>
+      <class name="onlinelease.tests.RDPMiniTest">
+        <methods>
+          <include name="rdpMiniTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- onlinelease.tests.RDPMiniTest -->
+    </classes>
+  </test> <!-- RDPMini_Test(failed) -->
+</suite> <!-- Failed suite [OnlineLease_Automation] -->
