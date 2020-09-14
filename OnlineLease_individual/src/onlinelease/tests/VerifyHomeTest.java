@@ -18,7 +18,7 @@ public class VerifyHomeTest extends WebTest{
 		Assert.assertEquals(actualTitle, expectedTitle);
 		
 		//testing this page
-		
+		//test test
 	}
 
 }
